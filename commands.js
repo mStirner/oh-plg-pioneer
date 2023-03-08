@@ -248,5 +248,21 @@ module.exports = [
         name: "Key: Channle Down (iRadio)",
         payload: "CHDN",
         description: "CH DOWN(for iRadio)"
+    }, {
+        name: "Key: ENTER",
+        payload: "ENTER",
+        description: "Enter Key"
+    }, {
+        name: "Key: EXIT",
+        payload: "EXIT",
+        description: "Exit Key"
+    }, {
+        name: "Key: HOME",
+        payload: "HOME",
+        description: "Home Key"
+    }, {
+        name: "Key: QUICK",
+        payload: "QUICK",
+        description: "Quick Setup Key/Quick Menu Key/AV Adjust Key"
     }
 ];
