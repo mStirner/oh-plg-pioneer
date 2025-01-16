@@ -11,23 +11,17 @@ Add plugin item via HTTP API:<br />
 [PUT] `http://{{HOST}}:{{PORT}}/api/plugins/`
 ```json
 {
-   "name":"Plugin Boilerplate",
+   "name":"Pioneer/Onky AV Receiver Integration",
    "version": "1.0.0",
    "intents":[
       "devices",
-      "endpoints",
-      "plugins",
-      "rooms",
-      "ssdp",
-      "store",
-      "users",
-      "vault"
+      "endpoints"
    ],
-   "uuid": "00000000-0000-0000-0000-000000000000"
+   "uuid": "5a26a9bb-1b54-41a5-9173-b4e3579416e6"
 }
-
 ```
+
 Mount the source code into the backend plugins folder
 ```sh
-sudo mount --bind ~/projects/OpenHaus/plugins/plugin-boilerplate/ ~/projects/OpenHaus/backend/plugins/00000000-0000-0000-0000-000000000000/
+sudo mount --bind ~/projects/OpenHaus/plugins/oh-plg-pioneer/ ~/projects/OpenHaus/backend/plugins/5a26a9bb-1b54-41a5-9173-b4e3579416e6/
 ```
